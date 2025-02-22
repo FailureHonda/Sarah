@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah Gaming Championship</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Controller Logo -->
+        <img src="image.png" alt="sarah" class="logo">
+        <h1>Sarah Gaming Championship</h1>
+
+        <!-- Side-by-Side Input Sections -->
+        <div class="input-container">
+            <div class="input-section team-a">
+                <h3>🎯 تيم التلعيب</h3>
+                <textarea id="groupAInput"></textarea>
+            </div>
+
+            <div class="input-section team-b">
+                <h3>🛑 تيم المش تلعيب</h3>
+                <textarea id="groupBInput"></textarea>
+            </div>
+        </div>
+
+        <button onclick="startMatching()">🎲 Roll Teams</button>
+
+        <!-- Results Display -->
+        <h2>🕹️ التيمات</h2>
+        <div id="resultContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

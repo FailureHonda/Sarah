@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    direction: rtl; /* Right-to-left layout */
+}
+
+/* Container */
+.container {
+    margin-top: 30px;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Input Section */
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.input-section {
+    flex: 1;
+    text-align: center;
+}
+
+/* Textareas */
+textarea {
+    width: 90%;
+    height: 10em; /* 10 rows */
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+    font-weight: bold;
+}
+
+/* Team Colors */
+.team-a textarea {
+    background-color: #d4f8d4; /* Light Green */
+    color: #2c3e50;
+}
+
+.team-b textarea {
+    background-color: #f8d4d4; /* Light Red */
+    color: #7d6608;
+}
+
+/* Static Button Color */
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    background-color: #e0aaff; /* Soft Purple (Static Color) */
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #c77dff;
+}
+
+/* Matched Teams Display */
+#resultContainer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Match Styling */
+.match {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Alternating Colors for Matches */
+.match:nth-child(even) {
+    background: #7fb3d5; /* Soft Blue */
+}
+
+.match:nth-child(odd) {
+    background: #f7c68a; /* Soft Orange */
+}
